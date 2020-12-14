@@ -15,7 +15,7 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     background: var(--color-background);
-    color: white;
+    color: var(--color-white);
     overflow-x: hidden;
 }
 
