@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header/StorefrontHeader';
+import StorefrontFooter from '../Footer/StorefronFooter'
 
 const MainComponent: React.FC = ({ children }) => {
   return (
@@ -8,6 +9,7 @@ const MainComponent: React.FC = ({ children }) => {
       <div className="container flex-fill">
         { children }
       </div>
+      <StorefrontFooter />
     </div>
   )
 }

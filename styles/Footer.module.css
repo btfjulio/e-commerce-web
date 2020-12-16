@@ -1,0 +1,15 @@
+.background {
+  width: 100%;
+  background-color: var(--color-primary);
+  padding: 20px;
+  text-align: center;
+}
+
+.line {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.web_address {
+  text-align: right;
+  color: var(--color-gray-light);
+}
