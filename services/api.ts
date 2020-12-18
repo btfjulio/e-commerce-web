@@ -28,7 +28,7 @@ api.interceptors.request.use(req => {
     const apiData: ApiData = JSON.parse(Cookie.get('@api-data'));
     req.headers = apiData;
   }
-  
+
   return req;
 })
 
