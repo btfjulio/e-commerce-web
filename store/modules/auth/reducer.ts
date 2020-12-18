@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-import User from '../../../dtos/user';
+import User from '../../../dtos/User';
 
 const authSlice = createSlice({
     name: 'auth',
